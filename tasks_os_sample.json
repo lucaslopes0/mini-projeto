@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "category": "OS",
+    "instruction": "Qual é o nome do usuário atualmente logado no sistema?",
+    "expected_answer": "user"
+  },
+  {
+    "id": 1,
+    "category": "OS",
+    "instruction": "Liste todos os arquivos (incluindo ocultos) no diretório home do usuário atual.",
+    "expected_answer": ""
+  },
+  {
+    "id": 2,
+    "category": "OS",
+    "instruction": "Crie um arquivo chamado 'teste.txt' no diretório /tmp com o conteúdo 'agentbench'. Depois confirme que o arquivo existe e exiba seu conteúdo.",
+    "expected_answer": "agentbench"
+  },
+  {
+    "id": 3,
+    "category": "OS",
+    "instruction": "Quantas linhas tem o arquivo /etc/passwd?",
+    "expected_answer": ""
+  },
+  {
+    "id": 4,
+    "category": "OS",
+    "instruction": "Qual é a versão do Python 3 instalada no sistema?",
+    "expected_answer": ""
+  },
+  {
+    "id": 5,
+    "category": "OS",
+    "instruction": "Crie um diretório chamado 'experimento' em /tmp, entre nele e crie um arquivo vazio chamado 'resultado.txt'. Liste o conteúdo do diretório para confirmar.",
+    "expected_answer": "resultado.txt"
+  },
+  {
+    "id": 6,
+    "category": "OS",
+    "instruction": "Qual é o uso de disco atual da partição raiz (/)?",
+    "expected_answer": ""
+  },
+  {
+    "id": 7,
+    "category": "OS",
+    "instruction": "Encontre todos os arquivos com extensão .py no diretório /usr/lib que contenham a palavra 'import' na primeira linha. Liste os primeiros 5 resultados.",
+    "expected_answer": ""
+  },
+  {
+    "id": 8,
+    "category": "OS",
+    "instruction": "Qual processo está consumindo mais CPU no momento? Informe o nome e o PID.",
+    "expected_answer": ""
+  },
+  {
+    "id": 9,
+    "category": "OS",
+    "instruction": "Crie um script bash em /tmp/hello.sh que imprima 'Olá, AgentBench!', dê permissão de execução a ele e execute-o.",
+    "expected_answer": "Olá, AgentBench!"
+  }
+]
