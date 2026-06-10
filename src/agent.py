@@ -1,12 +1,3 @@
-"""
-agent.py — Loop agêntico principal (padrão ReAct)
-
-Avalia GPT-4o em tarefas OS do AgentBench.
-Uso:
-    python src/agent.py --tasks tasks_os_sample.json --model gpt-4o --max-steps 10
-    python src/agent.py --tasks tasks_os_sample.json --task-id 0 --verbose
-"""
-
 import argparse
 import json
 import os
@@ -158,7 +149,7 @@ def run_task(client: OpenAI, task: dict, model: str, max_steps: int, verbose: bo
             steps.append({"step": step_num, "type": "invalid", "content": reply})
             break
 
-        time.sleep(0.3)  # evita rate limit
+        time.sleep(2)
 
     # Avalia se a resposta está correta (comparação simples de string)
     success = False
@@ -208,6 +199,7 @@ def main():
         all_results.append(result)
         status_icon = "✅" if result["success"] else "❌"
         logger.info(f"  {status_icon} Tarefa {result['task_id']}: {result['status']} em {result['num_steps']} passos")
+        time.sleep(5)
 
     output = {
         "run_metadata": {
