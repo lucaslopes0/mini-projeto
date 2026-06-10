@@ -3,7 +3,7 @@
 > Trabalho Final — Sessão de Painéis sobre Agentes de IA  
 > Disciplina: Agentes de IA | Sprint 2 — Checkpoint 2
 
-## 👥 Equipe
+##  Equipe
 
 | Integrante | GitHub | Responsabilidade |
 |---|---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Avaliar a capacidade de um agente LLM (GPT-4o) na categoria **OS** do [AgentBench](https://github.com/THUDM/AgentBench), documentando sistematicamente taxa de conclusão, número de passos por tarefa e tipos de erro recorrentes.
 
@@ -23,7 +23,7 @@ O experimento responde à pergunta: **benchmarks estáticos são suficientes par
 
 ---
 
-## 🗂️ Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 agentbench-g8/
@@ -44,7 +44,7 @@ agentbench-g8/
 
 ---
 
-## ⚙️ Como Rodar
+##  Como Rodar
 
 ### 1. Pré-requisitos
 
@@ -88,7 +88,7 @@ python src/evaluator.py --results results/run_sample.json
 
 ---
 
-## 📊 Métricas Coletadas
+##  Métricas Coletadas
 
 | Métrica | Descrição |
 |---|---|
@@ -99,7 +99,7 @@ python src/evaluator.py --results results/run_sample.json
 
 ---
 
-## 📚 Referências Principais
+##  Referências Principais
 
 - AgentBench: [arXiv:2308.03688](https://arxiv.org/abs/2308.03688)
 - GAIA: [arXiv:2311.12983](https://arxiv.org/abs/2311.12983)
@@ -109,12 +109,3 @@ python src/evaluator.py --results results/run_sample.json
 Lista completa no Checkpoint 1 e no painel final.
 
 ---
-
-## 📅 Cronograma
-
-| Sprint | Período | Status |
-|---|---|---|
-| Sprint 1 | 14–21/Mai | ✅ Checkpoint 1 entregue |
-| Sprint 2 | 22–28/Mai | 🔄 Em andamento |
-| Sprint 3 | 29/Mai–04/Jun | ⬜ Draft do painel |
-| Sprint 4 | 05–11/Jun | ⬜ Painel impresso + sessão |
